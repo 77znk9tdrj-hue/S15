@@ -1,3 +1,4 @@
+MARCEL WANKO
 # Programmation orientée objet - Soirée 15
 
 ## Duck typing et classes abstraites
