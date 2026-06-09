@@ -1,0 +1,14 @@
+-------------- exercice 1 --------------
+1. 
+-le message d'erreur exact est :
+TypeError: Can't instantiate abstract class LivraisonColisExpress
+with abstract method delai_estime
+
+-l'erreur survient a l'initialisation de la methode
+
+2.
+-Ce qui provoque dans la classe LivraisonColisExpress un refus est :
+La classe LivraisonColisExpress hérite de ModeLivraison mais elle n'implémente que def cout(self, poids_kg)
+
+3.
+
