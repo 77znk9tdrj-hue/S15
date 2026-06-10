@@ -11,4 +11,15 @@ with abstract method delai_estime
 La classe LivraisonColisExpress hérite de ModeLivraison mais elle n'implémente que def cout(self, poids_kg)
 
 3.
+Les classes abstraites.
+Une sous-classe qui n'implémente pas toutes 
+les méthodes décorées par @abstractmethod reste 
+elle-même abstraite et ne peut pas être instanciée.
+
+4.
+Avec le duck typing, l'objet serait créé sans erreur.
+L'erreur apparaîtrait seulement lorsqu'une fonction tenterait d'appeler :
+objet.delai_estime()
+
+5.
 
