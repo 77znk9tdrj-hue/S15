@@ -22,4 +22,5 @@ L'erreur apparaîtrait seulement lorsqu'une fonction tenterait d'appeler :
 objet.delai_estime()
 
 5.
-
+le probleme survenait sur le nom de la methode 
+en faite le nom "delai_estime" etait different de la classe parent 
